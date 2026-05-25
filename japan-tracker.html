@@ -143,7 +143,10 @@ h1,h2,h3,h4 { margin:0; }
       <h1>🗾 Japan 2026 Tracker</h1>
       <div style="color:var(--muted);font-size:.85rem;margin-top:2px">27.09. – 15.10.2026</div>
     </div>
-    <div class="badge" id="updated">Aktualisiert: …</div>
+    <div style="text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px">
+      <div class="badge" id="updated">Aktualisiert: …</div>
+      <a id="repo-link" href="#" target="_blank" style="font-size:.8rem;color:var(--accent-blue)">GitHub Repo →</a>
+    </div>
   </div>
 
   <!-- ===== TAB NAVIGATION ===== -->
@@ -187,7 +190,7 @@ h1,h2,h3,h4 { margin:0; }
 
     <div class="row">
       <div class="col-1 card">
-        <div class="card-title">Kritische Blocker (🔴)</div>
+        <div class="card-title" style="display:flex;justify-content:space-between;align-items:center"><span>Kritische Blocker (🔴)</span><a id="repo-link2" href="#" target="_blank" style="font-size:.78rem;color:var(--accent-blue)">GitHub →</a></div>
         <ul class="list-plain" id="db-blocker-list"><li>Keine offenen Blocker 🎉</li></ul>
       </div>
     </div>
