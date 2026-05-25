@@ -439,6 +439,14 @@ function render(d) {
   document.getElementById('updated').textContent = 'Aktualisiert: ' + up;
   const ver = d._meta && d._meta.generatorVersion || '1.0.0';
   document.getElementById('footer').textContent = `Tracker v${ver} • ${p.gesamtAufgaben || 0} Aufgaben insgesamt`;
+
+  // GitHub-Links aus JSON befüllen
+  if (d.git && d.git.repoUrl) {
+    const repoLink = document.getElementById('repo-link');
+    if (repoLink) { repoLink.setAttribute('href', d.git.repoUrl); }
+    const repoLink2 = document.getElementById('repo-link2');
+    if (repoLink2) { repoLink2.setAttribute('href', d.git.repoUrl); }
+  }
 }
 
 function renderCategories(kats, elId) {
