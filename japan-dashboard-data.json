@@ -1,0 +1,633 @@
+{
+  "_meta": {
+    "generatedAt": "2026-05-25T07:54:44.101926+00:00",
+    "generatorVersion": "1.2.0",
+    "commitsSource": "git_local"
+  },
+  "reiseStart": "2026-09-27",
+  "reiseEnde": "2026-10-15",
+  "tageBisReise": 125,
+  "progress": {
+    "gesamtAufgaben": 66,
+    "erledigt": 26,
+    "offen": 39,
+    "blockiert": 1,
+    "gesamtProzent": 39.4,
+    "prioHoch": 4,
+    "prioMittel": 11,
+    "prioNiedrig": 51
+  },
+  "kategorien": {
+    "hotels_buchungen": {
+      "gesamt": 7,
+      "erledigt": 5,
+      "offen": 2,
+      "blockiert": 0
+    },
+    "ausruestung": {
+      "gesamt": 12,
+      "erledigt": 2,
+      "offen": 10,
+      "blockiert": 0
+    },
+    "gepaeck_logistik": {
+      "gesamt": 6,
+      "erledigt": 5,
+      "offen": 1,
+      "blockiert": 0
+    },
+    "transport_bahn": {
+      "gesamt": 9,
+      "erledigt": 7,
+      "offen": 2,
+      "blockiert": 0
+    },
+    "route_programm": {
+      "gesamt": 6,
+      "erledigt": 1,
+      "offen": 5,
+      "blockiert": 0
+    },
+    "einreise_zoll": {
+      "gesamt": 4,
+      "erledigt": 1,
+      "offen": 3,
+      "blockiert": 0
+    },
+    "dokumente_sicherheit": {
+      "gesamt": 22,
+      "erledigt": 5,
+      "offen": 16,
+      "blockiert": 1
+    }
+  },
+  "blocker": [
+    {
+      "id": "J-006",
+      "aufgabe": "**Unbezahlte Hotels ~¥640.000 begleichen**",
+      "kategorie": "hotels_buchungen",
+      "status": "offen",
+      "prioritaet": "hoch",
+      "zeitfenster": "**27.07.2026**",
+      "deadline": "2026-07-27",
+      "notizen": "Reminder gesetzt; ca. 640k JPY offen",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-007",
+      "aufgabe": "**teamLab Planets Tickets kaufen**",
+      "kategorie": "hotels_buchungen",
+      "status": "offen",
+      "prioritaet": "hoch",
+      "zeitfenster": "**Juli–August**",
+      "deadline": null,
+      "notizen": "Tickets oft ausverkauft – früh kaufen (offizielle Seite oder Klook). Erinnerung weil aktuell noch nicht möglich.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-030",
+      "aufgabe": "**Takayama → Kanazawa Nohi Bus (Tag 7)**",
+      "kategorie": "transport_bahn",
+      "status": "offen",
+      "prioritaet": "hoch",
+      "zeitfenster": "**03.09.2026**",
+      "deadline": "2026-09-03",
+      "notizen": "**HIDA LIMITED EXPRESS GESPERRT!** Nur Nohi Bus möglich. Reservierung via japanbusonline.com, **12:50 Bus** (Ankunft 15:05). Cronjob für 03.09.2026 anlegen!",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-066",
+      "aufgabe": "**Tickets Tokyo → Takayama buchen**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "hoch",
+      "zeitfenster": "**1. September 2026**",
+      "deadline": null,
+      "notizen": "SmartEX + Hida-Reservierung. Öffnet genau 1 Monat vorher.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    }
+  ],
+  "deadlines": [
+    {
+      "datum": "2026-07-27",
+      "aufgabe": "**Unbezahlte Hotels ~¥640.000 begleichen**",
+      "kategorie": "hotels_buchungen",
+      "tageVerbleibend": 63
+    },
+    {
+      "datum": "2026-09-03",
+      "aufgabe": "**Takayama → Kanazawa Nohi Bus (Tag 7)**",
+      "kategorie": "transport_bahn",
+      "tageVerbleibend": 101
+    }
+  ],
+  "budget": {
+    "gesamtkostenJPY": 1044104,
+    "gesamtkostenEUR": 5652.67,
+    "unbezahltJPY": 0,
+    "unbezahltEUR": 0,
+    "status": "im_limit",
+    "anmerkung": "Nur Tagesbudget-Eintritte+Essen; Hotels separat bezahlt/pauschal"
+  },
+  "git": {
+    "commits": [],
+    "totalCommits": 0,
+    "changedFiles": [],
+    "uncommittedCount": 4,
+    "uncommittedDetails": [
+      "?? README.md",
+      "?? japan-dashboard-data.json",
+      "?? japan-dashboard-generator.py",
+      "?? japan-tracker.html"
+    ],
+    "activity": {},
+    "githubUrl": "https://github.com/hakimanshermes/japan-dashboard/commits/main/",
+    "repoUrl": "https://github.com/hakimanshermes/japan-dashboard"
+  },
+  "tasks": [
+    {
+      "id": "J-006",
+      "aufgabe": "**Unbezahlte Hotels ~¥640.000 begleichen**",
+      "kategorie": "hotels_buchungen",
+      "status": "offen",
+      "prioritaet": "hoch",
+      "zeitfenster": "**27.07.2026**",
+      "deadline": "2026-07-27",
+      "notizen": "Reminder gesetzt; ca. 640k JPY offen",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-007",
+      "aufgabe": "**teamLab Planets Tickets kaufen**",
+      "kategorie": "hotels_buchungen",
+      "status": "offen",
+      "prioritaet": "hoch",
+      "zeitfenster": "**Juli–August**",
+      "deadline": null,
+      "notizen": "Tickets oft ausverkauft – früh kaufen (offizielle Seite oder Klook). Erinnerung weil aktuell noch nicht möglich.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-010",
+      "aufgabe": "Zweites bequemes Paar / Backup-Sandalen prüfen",
+      "kategorie": "ausruestung",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "August–September",
+      "deadline": null,
+      "notizen": "Fallback falls ein Paar nass/durch",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-011",
+      "aufgabe": "Reiseadapter / Mehrfach-USB-Lader",
+      "kategorie": "ausruestung",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Prüfen ob vorhanden",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-012",
+      "aufgabe": "**Powerbank prüfen/kaufen**",
+      "kategorie": "ausruestung",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "**Juni–Juli**",
+      "deadline": null,
+      "notizen": "Vor Abflug vollständig laden; ggf. neu kaufen",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-013",
+      "aufgabe": "Leichte Regenjacke / kompakter Schirm",
+      "kategorie": "ausruestung",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Herbstwetter",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-014",
+      "aufgabe": "Kleine Tagesrucksack-/Crossbody-Lösung",
+      "kategorie": "ausruestung",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "August",
+      "deadline": null,
+      "notizen": "Pässe, Tickets, Powerbank, Wasser",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-015",
+      "aufgabe": "**2× GPS/Bluetooth Tracker für Koffer kaufen** (z.B. AirTag oder GPS-Tracker)",
+      "kategorie": "ausruestung",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "**Juni–Juli**",
+      "deadline": null,
+      "notizen": "Für Takkyubin-Verfolgung Tokyo → Takayama → Kyoto → Hakone; Bluetooth reicht in Japan (dichte iPhone-Population), GPS als Alternative prüfen",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-016",
+      "aufgabe": "**Tracker testen & mit iPhone koppeln**",
+      "kategorie": "ausruestung",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "August",
+      "deadline": null,
+      "notizen": "Vor Abflug Funktion sicherstellen, Batterie prüfen",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-017",
+      "aufgabe": "**SIM/eSIM oder Pocket-WiFi entscheiden & buchen**",
+      "kategorie": "ausruestung",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "**Juli–August**",
+      "deadline": null,
+      "notizen": "Früh buchen, günstiger; iPhone eSIM bevorzugt?",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-018",
+      "aufgabe": "**IC-Karte / Suica/PASMO-Strategie prüfen**",
+      "kategorie": "ausruestung",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "**Juni**",
+      "deadline": null,
+      "notizen": "Adam: Suica in Apple Wallet (¥5.000). Magdalena (Samsung S23+): PASMO Passport am Asakusa Station Automaten am Tag 2 (¥2.000 inkl. 1.500¥ Guthaben + 500¥ Pfand). PASMO funktioniert identisch in ganz Japan. KEIN Suica auf EU-Android-Geräten möglich.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-019",
+      "aufgabe": "**GO-Taxi App installieren** (beide Handys)",
+      "kategorie": "ausruestung",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Führende Taxi-App in Japan — funktioniert wie Uber, aber mit echten Taxis. Nützig für spontane Fahrten und Gepäcktransport.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-023",
+      "aufgabe": "Kleine Tasche für Disney + APA und ggf. Kanazawa definieren",
+      "kategorie": "gepaeck_logistik",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Minimal-Packliste",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-028",
+      "aufgabe": "**Tobu Nikko All Area Pass kaufen**",
+      "kategorie": "transport_bahn",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "**August–September**",
+      "deadline": null,
+      "notizen": "Online via Klook oder vor Ort Tobu Asakusa. ¥4.500/Person. Deckt Tag 2 komplett.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-030",
+      "aufgabe": "**Takayama → Kanazawa Nohi Bus (Tag 7)**",
+      "kategorie": "transport_bahn",
+      "status": "offen",
+      "prioritaet": "hoch",
+      "zeitfenster": "**03.09.2026**",
+      "deadline": "2026-09-03",
+      "notizen": "**HIDA LIMITED EXPRESS GESPERRT!** Nur Nohi Bus möglich. Reservierung via japanbusonline.com, **12:50 Bus** (Ankunft 15:05). Cronjob für 03.09.2026 anlegen!",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-035",
+      "aufgabe": "**28.09. entscheiden:** ruhiger Tokyo-Start oder Nikko?",
+      "kategorie": "route_programm",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Flexibel",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-036",
+      "aufgabe": "Takayama/Kanazawa priorisieren: Shirakawa-go ja/nein",
+      "kategorie": "route_programm",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "August–September",
+      "deadline": null,
+      "notizen": "Nakasendo/Matsumoto als Ersatz statt zusätzlich",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-037",
+      "aufgabe": "Kyoto-Tage entschlacken: max. ein Hauptziel pro Tag",
+      "kategorie": "route_programm",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Planung vor Ort",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-038",
+      "aufgabe": "Himeji oder Amanohashidate auswählen",
+      "kategorie": "route_programm",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Nicht beide an einem Tag",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-040",
+      "aufgabe": "Hakone als Erholungsteil schützen",
+      "kategorie": "route_programm",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "Vor Ort",
+      "deadline": null,
+      "notizen": "Nicht jeden Tag mit Pflichtprogramm füllen",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-041",
+      "aufgabe": "**Visit Japan Web Account erstellen**",
+      "kategorie": "einreise_zoll",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "**Juli–August**",
+      "deadline": null,
+      "notizen": "https://www.vjw.digital.go.jp/",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-042",
+      "aufgabe": "2D-Code-Verfügbarkeit auf Smartphone testen",
+      "kategorie": "einreise_zoll",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "Vor Abflug",
+      "deadline": null,
+      "notizen": "Nicht nur Screenshot",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-043",
+      "aufgabe": "Papier-Zollerklärung als Notfalloption kennen",
+      "kategorie": "einreise_zoll",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "Vor Abflug",
+      "deadline": null,
+      "notizen": "Falls Technik ausfällt",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-047",
+      "aufgabe": "Staatsangehörigkeit/Visa-Exemption gegen MOFA-Liste prüfen",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "Juni–Juli",
+      "deadline": null,
+      "notizen": "Offizielle Liste: https://www.mofa.go.jp/",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-048",
+      "aufgabe": "Wichtige Buchungen offline verfügbar machen",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "1 Woche vor",
+      "deadline": null,
+      "notizen": "Flüge, Hotels, Transfer, Disney, Versicherung",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-051",
+      "aufgabe": "**Medikamenten-Einfuhrregeln Japan prüfen**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "blockiert",
+      "prioritaet": "niedrig",
+      "zeitfenster": "Gestrichen",
+      "deadline": null,
+      "notizen": "Adam: keine Medikamente nötig (13.05.2026)",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-052",
+      "aufgabe": "**Taifun-Saison-Risiko dokumentieren**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "Juni–Juli",
+      "deadline": null,
+      "notizen": "September/Oktober = Taifun-Saison. Was bei Flugausfall? Hotel-Stornobedingungen bei Naturkatastrophen?",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-053",
+      "aufgabe": "**Reise- & Annulationsversicherung analysieren & abschließen**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "Juni–Juli",
+      "deadline": null,
+      "notizen": "Deckungssumme, Storno bei Taifun, Krankenrücktransport. Bei ~¥1 Mio. Hotelkosten + Flügen relevant.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-054",
+      "aufgabe": "**Geldstrategie konkretisieren**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "Juli–August",
+      "deadline": null,
+      "notizen": "Wie viel Bargeld? 7-Eleven-ATMs mit ausländischen Karten? Kreditkarten-Akzeptanz in Takayama/Kanazawa? Wechselkurs-Timing?",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-055",
+      "aufgabe": "**Restaurant-Reservierungen recherchieren**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "mittel",
+      "zeitfenster": "August",
+      "deadline": null,
+      "notizen": "Welche Restaurants brauchen Vorab-Reservierung? Kobe Wagyu, beliebte Izakayas, Ryokan-Essen.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-056",
+      "aufgabe": "**Sprach-App konkret empfehlen & vorbereiten**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Google Translate mit Offline-Paket Japanisch? DeepL? VoiceTra?",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-057",
+      "aufgabe": "**Digitale Backup-Strategie festlegen**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Verschlüsseltes Cloud-Backup? Passkopien in separatem Dienst?",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-058",
+      "aufgabe": "**Netzteil-Adapter Typ A (Japan) prüfen**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "August–September",
+      "deadline": null,
+      "notizen": "Japan = Typ A (100V, flache 2-Pin). Schweizer Stecker (Typ J) passen nicht.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-060",
+      "aufgabe": "**Onsen-Etikette dokumentieren**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Tattoos? Badekleidung? Vorher duschen? Gerade in Hakone relevant.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-061",
+      "aufgabe": "**Erdbeben-Notfallinfo notieren**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "Vor Abreise",
+      "deadline": null,
+      "notizen": "Notfallnummer, Verhaltenshinweis.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-062",
+      "aufgabe": "**Mückenschutz prüfen**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "August–September",
+      "deadline": null,
+      "notizen": "September in Hakone/Kyoto kann noch Mücken haben.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-063",
+      "aufgabe": "**Müll-/Wasser-Alltagstipps**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "September",
+      "deadline": null,
+      "notizen": "Japan hat kaum öffentliche Mülleimer. Trinkwasser aus Hahn ist sicher.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-064",
+      "aufgabe": "**Takkyubin-Formularhilfe vorbereiten**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "August–September",
+      "deadline": null,
+      "notizen": "Versandformulare sind auf Japanisch. Übersetzungshilfe/Anleitung erstellen.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-065",
+      "aufgabe": "Wetter für Tokyo/Takayama/Kyoto/Hakone prüfen",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "niedrig",
+      "zeitfenster": "1 Woche vor",
+      "deadline": null,
+      "notizen": "Packliste anpassen",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    },
+    {
+      "id": "J-066",
+      "aufgabe": "**Tickets Tokyo → Takayama buchen**",
+      "kategorie": "dokumente_sicherheit",
+      "status": "offen",
+      "prioritaet": "hoch",
+      "zeitfenster": "**1. September 2026**",
+      "deadline": null,
+      "notizen": "SmartEX + Hida-Reservierung. Öffnet genau 1 Monat vorher.",
+      "zustaendig": "Adam",
+      "ursprungDatei": "02 Projekte/Japan 2026/Japan 2026 - To-dos.md"
+    }
+  ]
+}
